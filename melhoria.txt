@@ -1,0 +1,3 @@
+- Implementar hashing de senha
+- Criar um backend em Node.js
+- Melhorar a interface com Bootstrap

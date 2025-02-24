@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('ocean-car-floating-full-moon-scenery-digital-art-hd-wallpaper-uhdpaper.com-664@0@j.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +11,8 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgba(0, 0, 0, 0.685);
+    color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -24,9 +28,10 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 95%;
     padding: 10px;
-    background: #007bff;
+    margin: 5px 0;
+    background: #6a38f3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,7 +39,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #4412ce;
 }
 
 p {

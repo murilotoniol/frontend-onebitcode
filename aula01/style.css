@@ -7,8 +7,8 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /*eixo transversal*/ 
+  justify-content: center; /*eixo principal*/ 
   gap: 1rem;
   min-height: 100vh;
 }
