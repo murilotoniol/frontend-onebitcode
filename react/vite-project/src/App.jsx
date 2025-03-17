@@ -9,11 +9,7 @@ function App() {
         <img src="/282599.webp" alt="src" />
       </div>
       <h1>React</h1>
-      <p>A biblioteca para interfaces de usuario web e nativas</p>
-      <div>
-        <button>Aprenda react</button>
-        <button>Referencia da API</button>
-      </div>
+      <p>A biblioteca para interfaces de usuario web e nativas</p>git
       <hr />
       <h2>Crie interfaces de usuario de componentes</h2>
       <p>React permite que voce construa interfaces de usuario a partir de pedaços individuais chamados componentes</p>
