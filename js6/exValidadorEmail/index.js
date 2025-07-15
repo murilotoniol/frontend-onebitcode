@@ -36,14 +36,8 @@ form.addEventListener('submit', function(event) {
 
     try {
         validateEmail(email)
-        alert("Email valido")
-    } catch (error){
-        alert(`Erro: ${ error.message}`)
-    }
-
-    try {
         validatePassword(password)
-        alert("Senha valida")
+        alert("Logado!")
     } catch (error){
         alert(`Erro: ${ error.message}`)
     }
