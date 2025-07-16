@@ -17,11 +17,11 @@ const p = (weight, heigh) => {
         console.log(`IMC: ${result.toFixed(2)}`)
         if (result < 18.5) {
             console.log("Magreza")
-        } else if (result >= 18.5 && result < 25) {
+        } else if (result < 25) {
             console.log("Normal")
-        } else if (result >= 25 && result < 30) {
+        } else if (result < 30) {
             console.log("Sobrepeso")
-        } else if (result >= 30 && result < 40) {
+        } else if (result < 40) {
             console.log("Obesidade")
         } else {
             console.log("Obesidade grave")
