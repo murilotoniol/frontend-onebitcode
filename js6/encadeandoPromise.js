@@ -28,5 +28,5 @@ getAge("oi").then(age => checkAge(age))
             console.log("Menor de idade")
         }
     })
-    .catch(error => console.log(`${error}`))
+    .catch(error => console.log(error.message))
 
